@@ -69,13 +69,13 @@ const SingleTodo = ({ todo, todos, setTodos }: SingleTodoProps) => {
 						}
 					}}
 				>
-					<AiFillEdit />
+					<AiFillEdit className='icon__button' />
 				</span>
 				<span className='icon' onClick={() => handleDelete(todo.id)}>
-					<AiFillDelete />
+					<AiFillDelete className='icon__button' />
 				</span>
 				<span className='icon' onClick={() => handleDone(todo.id)}>
-					<IoCheckmarkDoneSharp />
+					<IoCheckmarkDoneSharp className='icon__button' />
 				</span>
 			</div>
 		</form>

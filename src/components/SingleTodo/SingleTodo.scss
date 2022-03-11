@@ -6,12 +6,17 @@
 	background-image: url('https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg');
 	transition: 0.2s;
 
+	&:hover {
+		transform: scale(1.03);
+		box-shadow: 0 0 5px #000;
+	}
+
 	.todos__single-text {
 		flex: 1;
 		padding: 5px;
 		border: none;
 		font-size: 20px;
-
+		border-radius: 8px;
 		&:focus {
 			outline: none;
 		}
@@ -21,13 +26,13 @@
 		margin-left: 10px;
 		font-size: 25px;
 		cursor: pointer;
-	}
 
-	@media screen and (max-width: 1200px) {
-		width: 40%;
-	}
+		.icon__button {
+			transition: 0.2s all;
 
-	@media screen and (max-width: 700px) {
-		width: 100%;
+			&:active {
+				transform: scale(1.3);
+			}
+		}
 	}
 }
