@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# The TodoList Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project is TodoList Web Application build with React_Typescript
 
 ## Available Scripts
 
