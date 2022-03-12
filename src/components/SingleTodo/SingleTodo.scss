@@ -17,6 +17,7 @@
 		border: none;
 		font-size: 20px;
 		border-radius: 8px;
+
 		&:focus {
 			outline: none;
 		}
@@ -35,4 +36,8 @@
 			}
 		}
 	}
+}
+
+.drag {
+	box-shadow: 0 0 20px #000;
 }
